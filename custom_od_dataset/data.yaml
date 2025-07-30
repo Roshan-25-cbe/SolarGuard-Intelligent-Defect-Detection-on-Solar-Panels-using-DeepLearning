@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Bird-drop', 'Dusty', 'Electrical-damage', 'Physical-damage']
+
+roboflow:
+  workspace: solarguardproject
+  project: solarpaneldetection-9t9cw
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/solarguardproject/solarpaneldetection-9t9cw/dataset/2

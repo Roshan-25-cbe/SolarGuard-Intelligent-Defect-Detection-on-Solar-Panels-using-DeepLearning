@@ -1,0 +1,90 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+.env/
+conda_env/
+.conda/
+
+# IDE-specific files
+.vscode/        # VS Code
+.idea/          # IntelliJ / PyCharm
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+ehthumbs.db
+.directory
+
+# Jupyter / Colab specific files
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Deep Learning specific files
+
+# TensorFlow/Keras models
+*.h5
+*.keras
+saved_model/
+checkpoints/
+
+# PyTorch/Ultralytics models
+*.pt
+*.pth
+runs/           # Ultralytics training/validation results (contains models, logs, plots)
+weights/        # Specific weights folder if not inside runs/
+last.pt
+best.pt
+
+# Data files (often large, should not be committed)
+data/
+dataset/
+datasets/
+Faulty_solar_panel/ # Your raw dataset
+custom_od_dataset/  # Your Roboflow exported data (if not managed by direct download)
+*.zip               # Zipped datasets (like Roboflow downloads)
+*.tar
+*.tar.gz
+*.rar
+*.csv.zip
+*.json.zip
+*.gz
+
+# Logs
+*.log
+logs/
+
+# Cache files
+.cache/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+
+# Environment variables / API keys (sensitive info)
+.env
+api_keys.txt
+config.ini # Or any file containing sensitive configs
+
+# Streamlit specific
+.streamlit/
+app.pyc # Compiled Streamlit app files
+
+# EDA plots (can be large or regenerated)
+eda_plots/
+
+# Output directories
+output/
+results/
+
+# Any other large files you generate
+*.pkl
+*.bin
+*.onnx

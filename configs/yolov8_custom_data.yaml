@@ -1,0 +1,10 @@
+names:
+- Dust
+- Bird-Drop
+- Electrical-Damage
+- Physical-Damage
+nc: 4
+path: C:\Users\Admin\OneDrive\Desktop\SolarGuard_Project\custom_od_dataset
+test: images/test
+train: images/train
+val: images/val

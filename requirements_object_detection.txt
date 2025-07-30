@@ -1,0 +1,12 @@
+# requirements_object_detection.txt - For Solar Panel Object Detection Task (using Ultralytics)
+
+# Official YOLOv8 Library
+ultralytics==8.2.0
+
+# For YAML file handling (needed for data.yaml)
+PyYAML==6.0.1
+
+# Optional: For plotting and evaluation metrics (Ultralytics often handles its own plotting)
+matplotlib==3.9.0
+seaborn==0.13.2
+scikit-learn==1.5.0
